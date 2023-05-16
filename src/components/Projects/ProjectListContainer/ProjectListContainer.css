@@ -1,0 +1,10 @@
+.title {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin: 5rem;
+}
+
+.cardContainer {
+    align-content: center;
+}
