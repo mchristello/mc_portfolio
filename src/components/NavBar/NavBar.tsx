@@ -8,20 +8,19 @@ function NavBar () {
 
     return (
         <Navbar collapseOnSelect className='nav' expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand as={Link}to='/' className='brand ml-auto'>
-                MC.
-            </Navbar.Brand>
             <Container className='navBar'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Container className='navbar_container'>
-                    <Nav>
-                        <Nav.Link as={Link}to='/'>Top</Nav.Link>
-                        <Nav.Link as={Link}to="#myProjects">Projects</Nav.Link>
-                        <Nav.Link as={Link}to="#contactMe">Contact Me</Nav.Link>
+                    <Nav className='navMenu'>  
+                        <Nav.Link className='navItem' as={Link}to="#myProjects">My Projects</Nav.Link>
+                        <Nav.Link className='navItem' as={Link}to="#contactMe">Contact Me</Nav.Link>
                     </Nav>
                 </Container>
                 </Navbar.Collapse>
+            <Navbar.Brand as='h1' className='brand ml-auto'>
+                MC.
+            </Navbar.Brand>
             </Container>
         </Navbar>
     )

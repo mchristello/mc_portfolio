@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     background-color: rgb(61, 64, 78);
-    width: 85vw !important;
+    width: 100% !important;
     height: 45vh;
     margin: 5rem auto;
 }
@@ -18,6 +18,7 @@
 
 .cardBody {
     align-items: center;
+    width: 50%;
     margin: 1rem;
 }
 

@@ -9,7 +9,6 @@ export default function ProjectItem (prop: { project: Projects }) {
     return (
         <>
             <Card className='projects' style={{ width: '150rem' }}>
-                <Card.Img variant="left" src="holder.js/100px180" />
                 <Card.Body className='cardBody'>
                     <Card.Title as='h2' className='cardTitle'>{prop.project.title}</Card.Title>
                     <Card.Text className="mb-2 text-muted projectTechs">

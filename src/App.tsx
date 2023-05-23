@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProjectListContainer from './components/Projects/ProjectListContainer/ProjectListContainer';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<ProjectListContainer greeting={"Welcome!"} />}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

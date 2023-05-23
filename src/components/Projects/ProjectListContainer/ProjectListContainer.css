@@ -1,8 +1,9 @@
 .title {
     font-family: 'Rock Salt', cursive;
-    font-size: 4em;
+    font-size: 5em;
+    font-weight: bold;
     text-align: center;
-    margin: 5rem;
+    margin: 5rem auto;
 }
 
 .cardContainer {
