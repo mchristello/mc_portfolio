@@ -2,7 +2,6 @@
 import './NavBar.css'
 // Utility
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
 
 function NavBar () {
 
@@ -13,13 +12,14 @@ function NavBar () {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Container className='navbar_container'>
                     <Nav className='navMenu'>  
-                        <Nav.Link className='navItem' as={Link}to="#myProjects">My Projects</Nav.Link>
-                        <Nav.Link className='navItem' as={Link}to="#contactMe">Contact Me</Nav.Link>
+                        <Nav.Link className='navItem' href="#myProjects">My Projects</Nav.Link>
+                        <Nav.Link className='navItem' href="#myTechStack">My Tech Stack</Nav.Link>
+                        <Nav.Link className='navItem' href="#contactMe">Contact Me</Nav.Link>
                     </Nav>
                 </Container>
                 </Navbar.Collapse>
             <Navbar.Brand as='h1' className='brand ml-auto'>
-                MC.
+                Matias Christello
             </Navbar.Brand>
             </Container>
         </Navbar>

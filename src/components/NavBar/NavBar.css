@@ -4,8 +4,8 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     padding: .5rem;
-    height: 5rem;
-    font-size: 1.2em;
+    height: 3rem;
+    font-size: 1em;
 }
 
 .navBar {
@@ -17,5 +17,9 @@
 .navMenu {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: flex-start;
+}
+
+.brand {
+    font-family: 'Rock Salt', cursive;
 }

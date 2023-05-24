@@ -1,4 +1,17 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerContainer a {
+    color: black;
+    size: 3rem !important;
+}
+
 .footer {
     height: 5rem;
-    margin: 0 auto
+    margin: 5rem 0 auto;
+    font-size: larger;
 }

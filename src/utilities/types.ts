@@ -6,7 +6,7 @@ type Projects = {
     description: string;
     deploy: string;
     repository: string;
-    images: string;
+    images: string[];
     techs: string[];
 }
 

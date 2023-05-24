@@ -1,14 +1,66 @@
 //CSS
 import './ProjectItem.css';
 // Utilities
+import { useState } from 'react';
 import { Projects } from '../../../utilities/types';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Carousel } from 'react-bootstrap';
 
 export default function ProjectItem (prop: { project: Projects }) {
         
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex: number) => {
+        setIndex(selectedIndex);
+    };
+
     return (
         <>
-            <Card className='projects' style={{ width: '150rem' }}>
+            <Card className='projects'>
+                {/* <Card.Img variant="top" src={prop.project.images[0]} /> */}
+                <Carousel className='m-1 cardCarousel' activeIndex={index} onSelect={handleSelect}>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[0]}
+                        alt="Home Screen"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[1]}
+                        alt="Account"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[2]}
+                        alt="Cart View"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[3]}
+                        alt="Product Detail"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[4]}
+                        alt="Login"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={prop.project.images[5]}
+                        alt="Register"
+                        />
+                    </Carousel.Item>
+                </Carousel>
                 <Card.Body className='cardBody'>
                     <Card.Title as='h2' className='cardTitle'>{prop.project.title}</Card.Title>
                     <Card.Text className="mb-2 text-muted projectTechs">
