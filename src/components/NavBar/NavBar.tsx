@@ -12,9 +12,9 @@ function NavBar () {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Container className='navbar_container'>
                     <Nav className='navMenu'>  
-                        <Nav.Link className='navItem' href="#myProjects">My Projects</Nav.Link>
-                        <Nav.Link className='navItem' href="#myTechStack">My Tech Stack</Nav.Link>
-                        <Nav.Link className='navItem' href="#contactMe">Contact Me</Nav.Link>
+                        <Nav.Link className='navItem me-4' href="#myProjects">My Projects</Nav.Link>
+                        <Nav.Link className='navItem me-4' href="#myTechStack">My Tech Stack</Nav.Link>
+                        <Nav.Link className='navItem me-4' href="#contactMe">Contact Me</Nav.Link>
                     </Nav>
                 </Container>
                 </Navbar.Collapse>

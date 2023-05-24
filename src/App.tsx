@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ProjectListContainer from './components/Projects/ProjectListContainer/ProjectListContainer';
 import Footer from './components/Footer/Footer';
 import TechStack from './components/TechStack/TechStack';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <NavBar />
       <ProjectListContainer greeting={"Welcome!"} />
       <TechStack />
+      <Contact />
       <Footer />
     </BrowserRouter>
   )

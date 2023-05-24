@@ -11,6 +11,8 @@
     width: 100% !important;
     height: 50vh;
     margin: 5rem auto;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 20px;
 }
 
 .cardTitle {
@@ -22,6 +24,11 @@
 .cardCarousel {
     border-radius: 999px;
     width: 30vw;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    margin-left: 1rem;
 }
 
 .cardBody {

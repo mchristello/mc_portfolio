@@ -10,7 +10,7 @@ export default function ProjectList() {
     return (
         <Container>
             <article id='myProjects'>
-                <h2>Hi! I'm Matias, and these are my projects, so far.</h2>
+                <h2><u>Hi! I'm Matias, and these are <span>my projects</span>, so far.</u></h2>
                 {myProjects.map((project) => {
                     return (
                         <ProjectItem key={project.id} project={project} />
