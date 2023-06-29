@@ -9,7 +9,7 @@ export default function TechStack () {
 
     return (
         <Container as={"section"}>
-            <h2 id="myTechStack"><u>These are the <span>techs</span> that I'm able to work with, nowadays.</u></h2>
+            <h2 id="myTechStack"><u>These are the <span>techs</span> that I'm able to work with...</u></h2>
             <Container as={'article'} className="techContainer">
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/>
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/>

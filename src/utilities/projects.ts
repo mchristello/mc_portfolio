@@ -2,11 +2,11 @@ const myProjects = [
     {
         id: 5,
         title: "Ecommerce with Backend",
-        description: "Complete project, both, front and back, functionalities were developed here. An ecommerce of football shirts, with authentication, accounts, carts, diferent user roles, and more. This web Application made for a Backend course at CoderHouse. ",
-        deploy: "",
+        description: "Complete project, both, front and back, functionalities were developed here. An ecommerce of football shirts, with authentication, accounts, carts, diferent user roles, and more. This web Application made for a Backend course at CoderHouse. Still refactoring the Frontend.",
+        deploy: "https://fut-ecommerce-front-e9c24clzs-mchristello.vercel.app/",
         repository: "https://github.com/mchristello/backend_PF",
         images: ["/Ecommerce/home.jpg", "/Ecommerce/account.jpg", "/Ecommerce/cart.jpg", "/Ecommerce/detail.jpg", "/Ecommerce/login.jpg", "/Ecommerce/register.jpg"],
-        techs: ["Javascript", "NodeJs", "Express", "MongoDB", "CSS", "Handlebars", "Bootstrap"],
+        techs: ["Typescript", "React", "NextJs", "NodeJs", "Express", "MongoDB", "Tailwind"],
     },
     {
         id: 2,

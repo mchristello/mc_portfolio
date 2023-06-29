@@ -39,7 +39,7 @@ export default function Contact () {
                             <Form.Label>Email</Form.Label>
                             <Form.Control type="text" placeholder="example@email.com" required />
                             <Form.Control.Feedback type="invalid">
-                                Please provide a valid city.
+                                Please provide a valid email.
                             </Form.Control.Feedback>
                         </Form.Group>
                     </Row>
@@ -48,7 +48,7 @@ export default function Contact () {
                             <Form.Label>Your Message</Form.Label>
                             <Form.Control as="textarea" type="text" placeholder="Type here..." required />
                             <Form.Control.Feedback type="invalid">
-                                Please provide a valid email.
+                                Please write me a message.
                             </Form.Control.Feedback>
                         </Form.Group>
                     </Row>

@@ -1,6 +1,6 @@
 
 
-type Projects = {
+export interface Projects {
     id: number;
     title: string;
     description: string;
@@ -9,5 +9,3 @@ type Projects = {
     images: string[];
     techs: string[];
 }
-
-export type { Projects }
