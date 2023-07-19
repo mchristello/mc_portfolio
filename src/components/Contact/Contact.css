@@ -6,3 +6,14 @@
     width: 50vw;
     margin: 0 auto;
 }
+
+/* MEDIAQ. */
+@media (width <= 980px) {
+    .contact {
+        margin: 5rem auto;
+    }
+
+    .contact_form {
+        width: 80vw;
+    }
+}

@@ -6,7 +6,7 @@ const myProjects = [
         deploy: "https://fut-ecommerce-front-e9c24clzs-mchristello.vercel.app/",
         repository: "https://github.com/mchristello/backend_PF",
         images: ["/Ecommerce/home.jpg", "/Ecommerce/account.jpg", "/Ecommerce/cart.jpg", "/Ecommerce/detail.jpg", "/Ecommerce/login.jpg", "/Ecommerce/register.jpg"],
-        techs: ["Typescript", "React", "NextJs", "NodeJs", "Express", "MongoDB", "Tailwind"],
+        techs: ["Typescript", "ReactJs", "NextJs", "NodeJs", "Express", "MongoDB", "Tailwind"],
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const myProjects = [
         deploy: "https://mchristello.github.io/ReactChristello/",
         repository: "https://github.com/mchristello/ReactChristello",
         images: ["/EcommerceFrontReact/home.jpg", "/EcommerceFrontReact/checkout.jpg", "/EcommerceFrontReact/cart.jpg", "/EcommerceFrontReact/detail.jpg", "/EcommerceFrontReact/login.jpg", "/EcommerceFrontReact/register.jpg"],
-        techs: ["Javascript", "CSS", "Firebase", "Firestore", "React-Bootstrap"],
+        techs: ["ReactJs", "CSS", "Firebase", "Firestore", "React-Bootstrap"],
     },
     
     {
@@ -25,7 +25,7 @@ const myProjects = [
         deploy: "https://mchristello.github.io/ToDo_withReact/",
         repository: "https://github.com/mchristello/ToDo_withReact",
         images: ["/ToDoApp/home.jpg", "/ToDoApp/account.jpg", "/ToDoApp/tasks.jpg", "/ToDoApp/detail.jpg", "/ToDoApp/login.jpg", "/ToDoApp/register.jpg"],
-        techs: ["Javascript", "CSS", "Firebase", "Firestore", "React-Bootstrap"],
+        techs: ["ReactJs", "CSS", "Firebase", "Firestore", "React-Bootstrap"],
     },
     {
         id: 4,

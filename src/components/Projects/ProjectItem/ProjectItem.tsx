@@ -20,7 +20,7 @@ export default function ProjectItem ({ project } :Prop) {
     return (
         <>
             <Card className='projects'>
-                <Carousel className='m-1 cardCarousel' activeIndex={index} onSelect={handleSelect}>
+                <Carousel className='m-auto cardCarousel' activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
