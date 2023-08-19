@@ -7,11 +7,12 @@
     gap: 2rem;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background-color: rgb(61, 64, 78);
+    background-color: transparent;
+    backdrop-filter: sepia(60%) blur(5px);
     width: 100% !important;
     height: 50vh;
     margin: 5rem auto;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow:rgb(60 60 60 / 56%) -14px 18px 20px 20px;
     border-radius: 20px;
 }
 
@@ -23,7 +24,7 @@
 
 .cardCarousel {
     border-radius: 999px;
-    width: 30vw;
+    width: 50vw;
 }
 
 .carousel-inner {
@@ -47,16 +48,15 @@
 }
 
 .singleTech {
-
     color: black;
-    background-color:cadetblue;
+    background-color:rgb(149, 208, 238);
     border-radius: 20px;
     padding: 5px;
 }
 
 .cardText {
     font-size: 1.2rem;
-    margin: 2rem;
+    margin: 2rem 1rem auto;
     color:snow;
 }
 
@@ -73,6 +73,7 @@
 
     .cardCarousel {
         width: 90%;
+        margin-top: 1.5rem !important;
     }
 
     .carousel-inner {

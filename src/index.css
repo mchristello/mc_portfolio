@@ -18,14 +18,13 @@
   line-height: 1.5;
   font-weight: 400;
   scroll-behavior: smooth;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #507274;
   opacity: 0.7;
-  background-image: radial-gradient(circle at center center, #f4f6f5, #507274), repeating-radial-gradient(circle at center center, #f4f6f5, #f4f6f5, 9px, transparent 18px, transparent 9px);
+  background: no-repeat fixed url('https://img.freepik.com/free-vector/low-poly-background-with-mesh-design_1048-8203.jpg?w=740&t=st=1692391491~exp=1692392091~hmac=012ef6f9d7755370b84447d51b2e09ca382b781f86215def396d2b1246217f1c');
+  background-size: cover;
   background-blend-mode: multiply;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -64,9 +63,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

@@ -21,7 +21,7 @@ export default function Contact () {
 
     return (
         <Container id="contactMe" className="contact" as={"section"}>
-            <h2><u>Do you wanna <span>get in touch</span> with me?</u></h2>
+            <h2 className="text-center">Do you wanna <span>get in touch</span> with me?</h2>
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className="mt-5 contact_form">
                     <Row className="mb-3">
                         <Form.Group as={Col} md="12" controlId="validationCustom01">

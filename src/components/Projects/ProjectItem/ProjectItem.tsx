@@ -66,7 +66,7 @@ export default function ProjectItem ({ project } :Prop) {
                 </Carousel>
                 <Card.Body className='cardBody'>
                     <Card.Title as='h2' className='cardTitle'>{project.title}</Card.Title>
-                    <Card.Text className="mb-2 text-muted projectTechs">
+                    <Card.Text as='div' className="mb-2 text-muted projectTechs">
                         {project.techs.map((tech) => {
                             return (
                                 <Card.Subtitle className='singleTech' key={tech}> {tech} </Card.Subtitle>
@@ -76,8 +76,10 @@ export default function ProjectItem ({ project } :Prop) {
                     <Card.Text className='cardText'>
                         {project.description}
                     </Card.Text>
-                    <Button className='cardBtn' as='a' href={project.deploy} target='_blank' variant="outline-info">Go To Deploy</Button>
-                    <Button className='cardBtn' as='a' href={project.repository} target='_blank' variant="outline-warning">GitHub Repository</Button>
+                    <div className='d-flex justify-content-around'>
+                        <Button className='cardBtn' as='a' href={project.deploy} target='_blank' variant="outline-info">Go To Deploy</Button>
+                        <Button className='cardBtn' as='a' href={project.repository} target='_blank' variant="outline-success">GitHub Repository</Button>
+                    </div>
 
                 </Card.Body>
             </Card>
