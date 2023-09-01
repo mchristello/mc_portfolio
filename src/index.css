@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@400;700&family=Prompt:wght@400;700&family=Ropa+Sans&display=swap');
 
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Rock Salt', cursive; */
 /* font-family: 'Syne Mono', monospace; */
 /* font-family: 'Baloo 2', cursive; */
+/* font-family: 'Mukta Vaani', sans-serif; */
+/* font-family: 'Prompt', sans-serif; */
+/* font-family: 'Ropa Sans', sans-serif; */
+
 
 * {
   margin: 0;
@@ -19,12 +24,11 @@
   font-weight: 400;
   scroll-behavior: smooth;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #507274;
-  opacity: 0.7;
-  background: no-repeat fixed url('https://img.freepik.com/free-vector/low-poly-background-with-mesh-design_1048-8203.jpg?w=740&t=st=1692391491~exp=1692392091~hmac=012ef6f9d7755370b84447d51b2e09ca382b781f86215def396d2b1246217f1c');
-  background-size: cover;
-  background-blend-mode: multiply;
+  color: #1a1a1a;
+  opacity: 0.8;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 66%, rgba(0,0,0,1) 100%);
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,14 +36,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;
@@ -82,6 +86,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #000000;
   }
 }

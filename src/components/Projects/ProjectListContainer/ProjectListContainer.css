@@ -1,20 +1,5 @@
-.title {
-    font-family: 'Rock Salt', cursive;
-    font-size: 5em;
-    font-weight: bold;
-    text-align: center;
-    justify-self: center;
-    margin: 5rem auto;
-}
 
 .cardContainer {
     align-content: center;
 }
 
-
-/* MEDIA Q */
-@media (width <= 768px) {
-    .title {
-        font-size: 4rem;
-    }
-}

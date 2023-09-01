@@ -7,18 +7,17 @@
     gap: 2rem;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background-color: transparent;
+    background-color: #c6ebf8;
     backdrop-filter: sepia(60%) blur(5px);
     width: 100% !important;
     height: 50vh;
     margin: 5rem auto;
-    box-shadow:rgb(60 60 60 / 56%) -14px 18px 20px 20px;
+    box-shadow:rgb(0 0 0 / 58%) -3px 13px 20px 3px;
     border-radius: 20px;
 }
 
 .cardTitle {
     margin: 2rem;
-    color: snow;
     font-family: 'Baloo 2', cursive;
 }
 
@@ -57,11 +56,44 @@
 .cardText {
     font-size: 1.2rem;
     margin: 2rem 1rem auto;
-    color:snow;
+    color:rgb(0, 0, 0);
 }
 
 .cardBtn {
     margin: 2rem;
+}
+
+.heartbeat {
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+/* Animation */
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        transform: scale(0.91);
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        transform: scale(0.98);
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        transform: scale(0.87);
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
 }
 
 /* PROJECTS MEDIAQUERYS */

@@ -7,10 +7,9 @@
     margin-top: 5rem;
     padding: 3rem 0;
     width: 80vw;
-    background: #ffffff2c;
+    background: #78d3d573;
     box-shadow: 0 8px 32px 0 #1f26875e;
     backdrop-filter: blur( 8.5px );
-    -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 10px;
     border: 1px solid #ffffff2e;
     box-shadow: #0000002b 0px -23px 25px 0px inset, #00000026 0px -36px 30px 0px inset, #0000001a 0px -79px 40px 0px inset, #0000000f 0px 2px 1px, #00000017 0px 4px 2px, #00000017 0px 8px 4px, #00000017 0px 16px 8px, #00000017 0px 32px 16px;

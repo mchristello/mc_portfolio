@@ -19,7 +19,10 @@ function NavBar () {
                 </Container>
                 </Navbar.Collapse>
             <Navbar.Brand as='h1' className='brand ml-auto'>
-                Matias Christello
+                <div className="container d-flex">
+                    <p className='brand__glow'>M.</p>
+                    <p className='brand__glow'>C.</p>
+                </div>
             </Navbar.Brand>
             </Container>
         </Navbar>

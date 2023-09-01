@@ -11,7 +11,7 @@ export default function Footer () {
     return (
         <Container className='footerContainer'>
             <p className="footer text-center">Developed by Matias Christello</p>
-            <IconContext.Provider value={{ color: "white", size: "2.5em" }}>
+            <IconContext.Provider value={{ color: "black", size: "2.5em" }}>
                 <section className='footer_icons'>
                     <a className='m-3' href="https://github.com/mchristello" target='_blank'><BsGithub /></a>
                     <a className='m-3' href="https://www.linkedin.com/in/matias-christello/" target='_blank'><BsLinkedin /></a>

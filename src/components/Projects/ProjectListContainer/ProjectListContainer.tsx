@@ -5,12 +5,11 @@ import './ProjectListContainer.css'
 import { Container } from "react-bootstrap";
 
 
-function ProjectListContainer (prop: {greeting: string}) {
+function ProjectListContainer () {
 
 
     return (
         <Container className='cardContainer'>
-            <h1 className="title">{prop.greeting}</h1>
             <ProjectList />
         </Container>
     )

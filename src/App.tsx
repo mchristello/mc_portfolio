@@ -8,6 +8,7 @@ import ProjectListContainer from './components/Projects/ProjectListContainer/Pro
 import Footer from './components/Footer/Footer';
 import TechStack from './components/TechStack/TechStack';
 import Contact from './components/Contact/Contact';
+import PageHeader from './components/PageHeader';
 
 
 
@@ -16,7 +17,8 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <ProjectListContainer greeting={"Welcome!"} />
+      <PageHeader />
+      <ProjectListContainer />
       <TechStack />
       <Contact />
       <Footer />

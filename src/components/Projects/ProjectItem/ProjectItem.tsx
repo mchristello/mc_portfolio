@@ -77,8 +77,8 @@ export default function ProjectItem ({ project } :Prop) {
                         {project.description}
                     </Card.Text>
                     <div className='d-flex justify-content-around'>
-                        <Button className='cardBtn' as='a' href={project.deploy} target='_blank' variant="outline-info">Go To Deploy</Button>
-                        <Button className='cardBtn' as='a' href={project.repository} target='_blank' variant="outline-success">GitHub Repository</Button>
+                        <Button className='cardBtn heartbeat' as='a' href={project.deploy} target='_blank' variant="info">Go To Deploy</Button>
+                        <Button className='cardBtn heartbeat' as='a' href={project.repository} target='_blank' variant="success">GitHub Repository</Button>
                     </div>
 
                 </Card.Body>
