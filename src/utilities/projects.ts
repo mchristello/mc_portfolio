@@ -1,5 +1,14 @@
 const myProjects = [
     {
+        id: 6,
+        title: "CarParts Sales Control",
+        description: "Small web page dedicated to manage the control of autoparts sales",
+        deploy: "https://repuestosdb.vercel.app/",
+        repository: "https://github.com/mchristello/rep_back",
+        images: ["/RepPage/home.png", "/RepPage/login.png", "/RepPage/register.png", "/RepPage/sales.png", "/RepPage/addNew.png", "/RepPage/detail.jpg"],
+        techs: ["ReactJs", "NextJs", "NodeJs", "Express", "MongoDB", "Tailwind"],
+    },
+    {
         id: 5,
         title: "Ecommerce with Backend",
         description: "Complete project, both, front and back. An ecommerce of football shirts, with authentication, accounts, carts, diferent user roles, and more. This web Application made for a Backend course at CoderHouse. Still refactoring the Frontend with NextJs.",
